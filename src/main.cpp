@@ -8,6 +8,7 @@
 
 // Change name to OELeft or OERight before flashing ("OpenEarable" if left as default value)
 String d_name = "OpenEarable";
+bool MASTER = false;
 
 void setup()
 {
@@ -18,7 +19,7 @@ void setup()
   delay(5000);
 #endif
 
-    open_earable.begin(d_name);
+    open_earable.begin(d_name, MASTER);
 }
 
 void loop()
