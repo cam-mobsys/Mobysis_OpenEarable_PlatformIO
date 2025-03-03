@@ -8,7 +8,7 @@
 
 // Change name to OELeft or OERight before flashing ("OpenEarable" if left as default value)
 String d_name = "OpenEarable";
-bool MASTER = false;
+bool MASTER = true;
 
 void setup()
 {
